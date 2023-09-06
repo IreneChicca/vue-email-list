@@ -28,7 +28,7 @@
   </head>
   <body>
     <div id="app">
-      <ul>
+      <ul v-show="arrayMail.length == 10">
         <li v-for="item in arrayMail ">{{item}}</li>
       </ul>
     </div>
